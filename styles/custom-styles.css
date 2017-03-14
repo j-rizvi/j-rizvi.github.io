@@ -1,0 +1,19 @@
+.toprow {
+	background-image: url("../images/s_4.jpg");
+	height: 200px;
+}
+.bg {
+	background-image: url("../images/bg1.jpg");
+	height: auto;
+}
+.pic{
+	position: absolute;
+    left: 100px;
+	margin-top: -110px;
+	width: 225px;
+	border: 3px solid #73AD21;
+}
+.verticalLine {  
+	border-bottom: thick solid blue;
+	height: 50px;
+ }
