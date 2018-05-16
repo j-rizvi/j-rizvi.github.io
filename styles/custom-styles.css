@@ -1,60 +1,74 @@
-html, body {
-  font-family: "Oswald", sans-serif;
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 1.5;
-  color: Peru;
-}
-.toprow {
-	height: 200px;
-    background-image: url(../images/woven.png);
-   
-   
-}
-.topline{
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
 
-	border-top: 8px solid Peru; 
-}	
-.bottowline{
+html, body{
+	margin: auto;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(to bottom, #e0ec68, #79e091, #00c9bb, #00abc9, #5e8ab4);
+	background-repeat: no-repeat;
+}
+
+.intro{
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	display: table;
+	top: 0;
+}
+.intro .inner{
+	display: table-cell;
+	vertical-align:middle;
+	width: 100%;
+	max-width:none;
+}
+.content{
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 15%
+}
+.content h1{
+	 font-family: 'Yantramanav', san-serif;
+	 font-size: 450%;
+	 font-weight: 100%;
+	 line-height: 70%;
+}
+.btn{
+	font-family: Montserrat;
+	font-size: 135%;
+	font-weight: 400%;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: solid #3A6168;
+	padding: 10px 20px;
+	border-radius: 9px;
+}
+
+.btn:hover {
+	color: #CBDFD6;
+	border: solid #CBDFD6 2px;
 	
-	border-bottom: 8px solid Peru; 	
 }
 .bg {
+  position: relative; 
+  width: 100%; 
+  height: auto%;
+}
+img {
+  position: relative; 
+  margin: auto; 
+  min-width: auto;
+  min-height: auto;
+}
+/*--- Media Queries --*/
+@media screen and (max-width: 900px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 480px) {
 	
-	background: transparent url(../images/bg5.jpg);
-	height: 700px;
-	margin: auto;
-
 }
-.pic{
-	position: relative;
-	z-index: 999;
-	top: 120px;
-	
-}
-.bottomrow{
-	height: 200px;
-    background-image: url(../images/woven.png);
-	margin: auto;
-}
-
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-  font-family: "Open Sans", sans-serif;
-  font-size: 50px;
-  font-weight: 800;
-  color: SaddleBrown;
-}
-.home-main-content {
-	margin-top: 50px;
-	margin-bottom: 50px;
-	padding-top: 70px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px;
-}
-
