@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400');
-
 html, body{
 	margin: auto;
 	padding: 0;
@@ -30,8 +29,8 @@ html, body{
 	padding-top: 15%
 }
 .content h1{
-	 font-family: 'Yantramanav', san-serif;
-	 font-size: 450%;
+	 font-family: 'Open Sans', sans-serif;
+	 font-size: 400%;
 	 font-weight: 100%;
 	 line-height: 70%;
 }
@@ -47,7 +46,7 @@ html, body{
 }
 
 .btn:hover {
-	color: #CBDFD6;
+	color: #404040;
 	border: solid #CBDFD6 2px;
 	
 }
@@ -62,6 +61,59 @@ img {
   min-width: auto;
   min-height: auto;
 }
+ul.socialIcons {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.socialIcons li {
+  background-color: yellow;
+  list-style: none;
+  display: inline-block;
+  margin: 4px;
+  border-radius: 2em;
+  overflow: hidden;
+}
+
+.socialIcons li a {
+  display: block;
+  padding: 0.5em;
+  min-width: 1.28571429em;
+  max-width: 1.28571429em;
+  height: 1.28571429em;
+  white-space: nowrap;
+  line-height: 1.5em; /*it's working only when you write text with icon*/
+  transition: 0.5s;
+  text-decoration: none;
+  font-family: arial;
+  color: #fff;
+}
+
+.socialIcons li i {
+  margin-right: 0.5em;
+}
+
+.socialIcons li:hover a {
+  max-width: 200px;
+  padding-right: 1em;
+}
+
+.socialIcons .facebook {
+  background-color: #3b5998;
+  box-shadow: 0 0 16px #3b5998;
+}
+
+.socialIcons .github {
+  background-color: #2f2f2f;
+  box-shadow: 0 0 16px #00aced;
+}
+
+.socialIcons .linkedin {
+  background-color: #006db3;
+  box-shadow: 0 0 16px #cd486b;
+}
+
+
 /*--- Media Queries --*/
 @media screen and (max-width: 900px) {
 
