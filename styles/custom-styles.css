@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400');
-html, body{
+
+#htmlpg1, #bodypg1{
 	margin: auto;
 	padding: 0;
 	height: 100%;
@@ -8,7 +9,27 @@ html, body{
 	background-image: linear-gradient(to bottom, #70d3ff, #00e4ff, #00f2eb, #00fbb4, #00ff62);
 	background-repeat: no-repeat;
 }
-
+#bodypg2 {
+	margin: auto;
+	background-image: url('../img/bc.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	height: 100vh;
+	z-index: -10;
+}
+.overlay{
+	position: absolute;
+	background-color: rgba(0,0,0,0.5);
+	top: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	z-index:-5;
+	
+}
 .intro{
 	height: 100%;
 	width: 100%;
@@ -54,12 +75,6 @@ html, body{
   position: relative; 
   width: 100%; 
   height: auto%;
-}
-img {
-  position: relative; 
-  margin: auto; 
-  min-width: auto;
-  min-height: auto;
 }
 ul.socialIcons {
   padding-top: 100px;
@@ -112,6 +127,11 @@ ul.socialIcons {
   background-color: #006db3;
   box-shadow: 0 0 16px #cd486b;
 }
+.responsive {
+    max-width: 100%;
+    height:auto;
+	margin-bottom:-3.75em;
+}
 
 
 /*--- Media Queries --*/
@@ -121,6 +141,6 @@ ul.socialIcons {
 @media screen and (max-width: 768px) {
 
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
 	
 }
