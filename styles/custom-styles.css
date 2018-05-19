@@ -20,16 +20,6 @@
 	height: 100vh;
 	z-index: -10;
 }
-.overlay{
-	position: absolute;
-	background-color: rgba(0,0,0,0.5);
-	top: 0;
-	bottom: 0;
-	height: 100%;
-	width: 100%;
-	z-index:-5;
-	
-}
 .intro{
 	height: 100%;
 	width: 100%;
@@ -54,6 +44,20 @@
 	 font-size: 400%;
 	 font-weight: 100%;
 	 line-height: 70%;
+}
+.content2 h1{
+	 font-family: 'Open Sans', sans-serif;
+	 font-size: 400%;
+	 position: absolute;
+	 right: 0;
+	 left: 0;
+	 top: 20%;
+	 margin: 1px auto;
+	 text-align: center;
+	 color: #d3d3d3;
+	 text-decoration: underline;
+	 text-shadow: 5px 4px grey;
+	 
 }
 .btn{
 	font-family: Montserrat;
@@ -132,7 +136,16 @@ ul.socialIcons {
     height:auto;
 	margin-bottom:-3.75em;
 }
-
+.overlay{
+	position: absolute;
+	background-color: rgba(0,0,0,0.5);
+	top: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	z-index:-5;
+	
+}
 
 /*--- Media Queries --*/
 @media screen and (max-width: 900px) {
