@@ -19,7 +19,7 @@ html,body{
 	 font-family: 'Open Sans', sans-serif;
 	 font-size: 450%;
 	 text-shadow: -5px 0px 1px rgba(154, 150, 150, 1);	
-	 padding-top: 13%;
+	 padding-top: 10%;
 }
 .btn{
 	font-family: Montserrat;
@@ -141,14 +141,17 @@ ul.socialIcons {
 /*Media Queries*/
 @media screen and (max-width: 480px) { 
   .btn {
-    width: 100%;
+	margin: auto;
+    width:50%;
+	position: center;
+	
   }
   a.btn{
     display: block;
-    padding: 0;
+    padding: 10px 10px;
   }
   .content-p h1{
-	font-size: 350%;
+	font-size: 330%;
   }
    .contentp p{
 	font-size: 150%;
