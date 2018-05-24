@@ -2,15 +2,25 @@
 html,body{
 	 margin: 0;
 	 padding:0;
-	 text-align: center;
 	 line-height: 1.7;
 	 
+}
+.bg-mobile{
+	background-image: linear-gradient(to top, #f5b178, #f4b987, #f3c197, #f2c9a7, #f0d1b7);	
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: auto;
+	z-index:-1;
+	position: absolute;
+	height: 100%;
+	width: 100%;
 }
 .bg-image1 {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(to bottom, #70d3ff, #00e4ff, #00f2eb, #00fbb4, #00ff62);
+	/*background-image: linear-gradient(to bottom, #70d3ff, #00e4ff, #00f2eb, #00fbb4, #00ff62);*/
+	background-image: url('../img/p_f3.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	overflow: auto;
@@ -18,10 +28,13 @@ html,body{
 }
 .content h1{
 	 font-family: 'Open Sans', sans-serif;
-	 font-size: 450%;
-	 text-shadow: -5px 0px 1px rgba(154, 150, 150, 1);	
+	 font-size: 5vw;
+	 text-shadow: -9px -1px 1px rgba(24, 24, 24);	
 	 padding-top: 10%;
+	 padding-left: 150px;
 	 display: block;
+	 left: 100px;
+	 color: #f2c9a7;
 }
 .btn{
 	font-family: Montserrat;
@@ -33,14 +46,16 @@ html,body{
 	width: 200px;
 	height: 40px;
 	border-radius: 80px;
-	border: 3px solid #7FFFD4;
+	border: 3px solid #808080;
 	display: inline-block;
-	margin: 10px auto;
-	color: #696969;
+	margin: 10px;
+	left: 200px;
+	color: #FFDAB9;
 	overflow:hidden;
 	position: relative;
 	background: transparent;
 	transition: .3s;
+	
 }
 .btn:before{
 	
@@ -48,7 +63,7 @@ html,body{
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	background: #00BFFF;
+	background: #97765a;
 	opacity:.5;
 	top: -100%;
 	left: 0;
@@ -60,7 +75,7 @@ html,body{
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	background: #00BFFF;
+	background: #97765a;
 	top:-100%;
 	left: 0;
 	z-index:-1;
@@ -68,7 +83,7 @@ html,body{
 	transition-delay: .2s;
 }
 .btn:hover {
-	color: #fff;
+	color: black;
 }
 .btn:hover:before {
 	top:0;
@@ -90,9 +105,10 @@ ul.socialIcons {
   background-color: yellow;
   list-style: none;
   display: inline-block;
-  margin: 4px;
+  margin-bottom: 4px;
   border-radius: 2em;
   overflow: hidden;
+  
 }
 
 .socialIcons li a {
@@ -125,12 +141,12 @@ ul.socialIcons {
 
 .socialIcons .github {
   background-color: #2f2f2f;
-  box-shadow: 0 0 16px #00aced;
+  box-shadow: 0 0 16px #000000;
 }
 
 .socialIcons .linkedin {
   background-color: #006db3;
-  box-shadow: 0 0 16px #cd486b;
+  box-shadow: 0 0 16px #3b5998;
 }
 /*End of footer*/
 
@@ -139,7 +155,7 @@ ul.socialIcons {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	background-image: url('../img/bc1.jpg');
+	background-image: url('../img/p_f1.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	overflow: auto;
@@ -149,7 +165,7 @@ ul.socialIcons {
 	position: absolute; 
     width: 100%; 
     height: 100%; 
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.4);
 	z-index: 2;
 	display: block;
 	overflow: auto;
@@ -176,27 +192,94 @@ ul.socialIcons {
 	
 }
 
-/*Resume Page*/
+/*Aboutme Page*/
+.bg-image3{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-image: url('../img/p_f3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	overflow: auto;
+	z-index:-1;
+	display: block;
+}
+.overlay2{
+	position: absolute; 
+    width: 100%; 
+    height: 100%; 
+	background-color: rgba(0,0,0,0.5);
+	z-index: 2;
+	display: block;
+	overflow: auto;
+}
+
+
+.content-a h1{
+	 font-family: 'Open Sans', sans-serif;
+	 font-size: 450%;
+	 padding-top: 5%;
+	 padding-right: 50%;
+	 text-shadow: 5px 4px grey;
+	 opacity:0.6;
+	 color: white;
+}
 
 /*Media Queries*/
-@media screen and (max-width: 480px) { 
+@media screen and (min-width: 160px) and (max-width: 460px) { 
   .btn {
 	margin-top: 10px;
-	margin-left: 40px;
-    width:75%;
-	position: center;
-    	
-  }
-  a.btn{
+	margin-left: -160px;
+    width:75%; 	
+	}
+	a.btn{
+    display: inherit;
+	}
+   .content h1{
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 30vw;
+	padding-bottom: 5vw;
+    text-align: left;
+    font-size: 12vw;
     display: block;
-    padding: 10px 10px;
-	
-  }
-  .content-p h1{
-	font-size: 330%;
-  }
+    text-shadow: 1px -4px 1px rgba(24, 24, 24);
+	color: #b6865d;
+	}
+	.content-a h1{
+	font-size: 300%;
+	}
    .contentp p{
 	font-size: 150%;
 	margin: 5px 20px 5px;
-  }
+	}
+	.bg-image1{
+	width: 100%;
+	height:100%;
+	background-size: contain;
+	display: block;
+	overflow: auto;
+	}
+	.overlay{
+	position: absolute; 
+    width: 100%; 
+    height: 100%; 
+	background-color: rgba(0,0,0,0);
+	z-index: 1;
+	display: block;
+	overflow: auto;
+	}
+
+}
+@media screen and (min-width: 760px) { 
+
+.bg-image3{
+	padding:0;
+	width:100%;
+	height:110%;
+	background-size: cover;
+	display: block;
+	overflow: auto;
+}
 }
