@@ -94,7 +94,8 @@ html,body{
 
 /*Start of Footer*/
 #main-footer{
-	padding-right: 50px;
+	padding-right: 0px;
+	padding-left: -100px;
 }
 ul.socialIcons {
   padding-top: 100px;
@@ -230,7 +231,7 @@ ul.socialIcons {
 @media screen and (min-width: 160px) and (max-width: 460px) { 
   .btn {
 	margin-top: 10px;
-	margin-left: -160px;
+	margin-left: -180px;
     width:75%; 	
 	}
 	a.btn{
