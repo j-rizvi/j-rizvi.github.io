@@ -253,8 +253,8 @@ ul.socialIcons {
     text-align: left;
     font-size: 12vw;
     display: block;
-    text-shadow: 1px -4px 1px rgba(24, 24, 24);
-	color: #b6865d;
+    text-shadow: -2px -2px 1px rgba(24, 24, 24);
+	color: ##ffc695;
 	}
 	
 	.content-a h1{
