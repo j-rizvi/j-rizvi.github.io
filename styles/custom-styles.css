@@ -231,8 +231,9 @@ ul.socialIcons {
 @media screen and (min-width: 160px) and (max-width: 460px) { 
 	
 	ul.socialIcons {
-	padding-top: 270px;
-    padding-left: 29vw;
+	padding-top: 110px;
+    text-align: center;
+	padding-left: 10px
 	}
 	
    .btn {
@@ -285,7 +286,7 @@ ul.socialIcons {
 	}
 
 }
-@media screen and (min-width: 760px) { 
+@media screen and (max-width: 1300px) { 
 
 .bg-image3{
 	padding:0;
