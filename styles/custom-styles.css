@@ -98,8 +98,8 @@ html,body{
 	padding-left: -100px;
 }
 ul.socialIcons {
-  padding-top: 100px;
-  text-align: center;
+  padding-top: 120px;
+  padding-left: 23vw;
 }
 
 .socialIcons li {
