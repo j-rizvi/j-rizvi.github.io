@@ -1,9 +1,13 @@
 
 html,body{
-	 margin: 0;
-	 padding:0;
-	 line-height: 1.7;
-	 
+	margin:0;
+	padding:0;
+	line-height: 1.7;
+	top: 0;
+	right: 0;
+	left:0;
+	bottom:0;
+	position:fixed;
 }
 .bg-mobile{
 	background-image: linear-gradient(to top, #f5b178, #f4b987, #f3c197, #f2c9a7, #f0d1b7);	
@@ -228,7 +232,7 @@ ul.socialIcons {
 }
 
 /*Media Queries*/
-@media screen and (min-width: 160px) and (max-width: 460px) { 
+@media screen and (min-width: 160px) and (max-width: 760px) { 
 	
 	ul.socialIcons {
 	padding-top: 110px;
@@ -268,8 +272,8 @@ ul.socialIcons {
 	}
 	
 	.bg-image1{
-	width: 100%;
-	height:100%;
+	width: 100vw;
+	height:100vh;
 	background-size: contain;
 	display: block;
 	overflow: auto;
@@ -286,14 +290,62 @@ ul.socialIcons {
 	}
 
 }
-@media screen and (max-width: 1300px) { 
+/*
+@media screen and (min-width: 1300px) { 
 
-.bg-image3{
-	padding:0;
-	width:100%;
-	height:110%;
-	background-size: cover;
+	ul.socialIcons {
+	padding-top: 110px;
+    text-align: center;
+	padding-left: 10px;
+	}
+	
+   .btn {
+	margin-top: 10px;
+	margin-left: -180px;
+    width:75%; 	
+	}
+	
+	a.btn{
+    display: inherit;
+	}
+	
+   .content h1{
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 30vw;
+	padding-bottom: 5vw;
+    text-align: left;
+    font-size: 12vw;
+    display: block;
+    text-shadow: -2px -2px 1px rgba(24, 24, 24);
+	color: ##ffc695;
+	}
+	
+	.content-a h1{
+	font-size: 300%;
+	}
+	
+   .contentp p{
+	font-size: 150%;
+	margin: 5px 20px 5px;
+	}
+	
+	.bg-image1{
+	width: 100vw;
+	height:100vh;
+	background-size: contain;
 	display: block;
 	overflow: auto;
+	}
+	
+	.overlay{
+	position: absolute; 
+    width: 100%; 
+    height: 100%; 
+	background-color: rgba(0,0,0,0);
+	z-index: 1;
+	display: block;
+	overflow: auto;
+	}
 }
-}
+*/
