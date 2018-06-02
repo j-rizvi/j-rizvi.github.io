@@ -223,9 +223,10 @@ ul.socialIcons {
 
 .content-a h1{
 	 font-family: 'Open Sans', sans-serif;
-	 font-size: 450%;
+	 font-size: 5vw;
 	 padding-top: 5%;
-	 padding-right: 50%;
+	 padding-right: 5vw;
+	 padding-left: 5vw;
 	 text-shadow: 5px 4px grey;
 	 opacity:0.6;
 	 color: white;
@@ -347,5 +348,16 @@ ul.socialIcons {
 	display: block;
 	overflow: auto;
 	}
-}
+@media screen and (min-width: 1024px)
+
+
+
+@media screen and (min-width : 768px) and (max-width : 1023px)
+
+
+
+
+@media screen and (min-width : 0px) and (max-width : 767px)
+
+
 */
