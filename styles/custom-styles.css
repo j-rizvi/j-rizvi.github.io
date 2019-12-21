@@ -10,7 +10,7 @@ html,body{
 	position:fixed;
 }
 .bg-mobile{
-	background-image: linear-gradient(to top, #f5b178, #f4b987, #f3c197, #f2c9a7, #f0d1b7);	
+	background-image: linear-gradient(to top, #f5b178, #f4b987, #f3c197, #f2c9a7, #f0d1b7);
 	background-size: cover;
 	background-repeat: no-repeat;
 	overflow: auto;
@@ -20,20 +20,14 @@ html,body{
 	width: 100%;
 }
 .bg-image1 {
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	/*background-image: linear-gradient(to bottom, #70d3ff, #00e4ff, #00f2eb, #00fbb4, #00ff62);*/
-	background-image: url('../img/p_f3.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	overflow: auto;
-	z-index:-1;
+
+	background-image: url('../img/bc1.jpg');
+
 }
 .content h1{
 	 font-family: 'Open Sans', sans-serif;
 	 font-size: 5vw;
-	 text-shadow: -9px -1px 1px rgba(24, 24, 24);	
+	 text-shadow: -9px -1px 1px rgba(24, 24, 24);
 	 padding-top: 10%;
 	 padding-left: 150px;
 	 display: block;
@@ -59,10 +53,10 @@ html,body{
 	position: relative;
 	background: transparent;
 	transition: .3s;
-	
+
 }
 .btn:before{
-	
+
 	content:'';
 	width: 100%;
 	height: 100%;
@@ -101,10 +95,7 @@ html,body{
 	padding-right: 0px;
 	padding-left: -100px;
 }
-ul.socialIcons {
-  padding-top: 120px;
-  padding-left: 23vw;
-}
+
 
 .socialIcons li {
   background-color: yellow;
@@ -113,17 +104,17 @@ ul.socialIcons {
   margin-bottom: 4px;
   border-radius: 2em;
   overflow: hidden;
-  
+
 }
 
 .socialIcons li a {
-  display: block;
-  padding: 0.5em;
+
+
   min-width: 1.28571429em;
   max-width: 1.28571429em;
   height: 1.28571429em;
   white-space: nowrap;
-  line-height: 1.5em; 
+  line-height: 1.5em;
   transition: 0.5s;
   text-decoration: none;
   font-family: arial;
@@ -167,9 +158,9 @@ ul.socialIcons {
 	z-index:-1;
 }
 .overlay{
-	position: absolute; 
-    width: 100%; 
-    height: 100%; 
+	position: absolute;
+    width: 100%;
+    height: 100%;
 	background-color: rgba(0,0,0,0.4);
 	z-index: 2;
 	display: block;
@@ -194,7 +185,7 @@ ul.socialIcons {
 	padding: 20px;
 	margin-top: 75px;
 	text-align: left;
-	
+
 }
 
 /*Aboutme Page*/
@@ -211,9 +202,9 @@ ul.socialIcons {
 	display: block;
 }
 .overlay2{
-	position: absolute; 
-    width: 100%; 
-    height: 100%; 
+	position: absolute;
+    width: 100%;
+    height: 100%;
 	background-color: rgba(0,0,0,0.5);
 	z-index: 2;
 	display: block;
@@ -233,24 +224,24 @@ ul.socialIcons {
 }
 
 /*Media Queries*/
-@media screen and (min-width: 160px) and (max-width: 760px) { 
-	
+@media screen and (min-width: 160px) and (max-width: 760px) {
+
 	ul.socialIcons {
 	padding-top: 110px;
     text-align: center;
 	padding-left: 10px;
 	}
-	
+
    .btn {
 	margin-top: 10px;
 	margin-left: -180px;
-    width:75%; 	
+    width:75%;
 	}
-	
+
 	a.btn{
     display: inherit;
 	}
-	
+
    .content h1{
     padding-top: 0;
     padding-left: 10px;
@@ -262,16 +253,16 @@ ul.socialIcons {
     text-shadow: -2px -2px 1px rgba(24, 24, 24);
 	color: ##ffc695;
 	}
-	
+
 	.content-a h1{
 	font-size: 300%;
 	}
-	
+
    .contentp p{
 	font-size: 150%;
 	margin: 5px 20px 5px;
 	}
-	
+
 	.bg-image1{
 	width: 100vw;
 	height:100vh;
@@ -279,11 +270,11 @@ ul.socialIcons {
 	display: block;
 	overflow: auto;
 	}
-	
+
 	.overlay{
-	position: absolute; 
-    width: 100%; 
-    height: 100%; 
+	position: absolute;
+    width: 100%;
+    height: 100%;
 	background-color: rgba(0,0,0,0);
 	z-index: 1;
 	display: block;
@@ -292,24 +283,24 @@ ul.socialIcons {
 
 }
 /*
-@media screen and (min-width: 1300px) { 
+@media screen and (min-width: 1300px) {
 
 	ul.socialIcons {
 	padding-top: 110px;
     text-align: center;
 	padding-left: 10px;
 	}
-	
+
    .btn {
 	margin-top: 10px;
 	margin-left: -180px;
-    width:75%; 	
+    width:75%;
 	}
-	
+
 	a.btn{
     display: inherit;
 	}
-	
+
    .content h1{
     padding-top: 0;
     padding-left: 10px;
@@ -321,16 +312,16 @@ ul.socialIcons {
     text-shadow: -2px -2px 1px rgba(24, 24, 24);
 	color: ##ffc695;
 	}
-	
+
 	.content-a h1{
 	font-size: 300%;
 	}
-	
+
    .contentp p{
 	font-size: 150%;
 	margin: 5px 20px 5px;
 	}
-	
+
 	.bg-image1{
 	width: 100vw;
 	height:100vh;
@@ -338,11 +329,11 @@ ul.socialIcons {
 	display: block;
 	overflow: auto;
 	}
-	
+
 	.overlay{
-	position: absolute; 
-    width: 100%; 
-    height: 100%; 
+	position: absolute;
+    width: 100%;
+    height: 100%;
 	background-color: rgba(0,0,0,0);
 	z-index: 1;
 	display: block;
